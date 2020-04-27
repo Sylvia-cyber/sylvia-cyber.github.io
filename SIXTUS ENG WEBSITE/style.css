@@ -1,0 +1,64 @@
+header {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url(images/header1.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-menu {
+    background: transparent;
+    padding: 30px;
+}
+.menu-item {
+    color: white;
+    font-size: 18px;
+    margin: 2px;
+    padding: 4px;
+    letter-spacing: 1px;
+}
+
+.menu-item:hover {
+    color: rgb(99, 119, 146);
+}
+
+.menu-item.active {
+    color:rgb(99, 119, 146);
+}
+
+.input-search {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.input-search:focus {
+    background:transparent;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #e72f2f;
+    transition: all .4s;
+}
+
+.input-button {
+    border-radius: 50%;
+    padding: 10px 15px;
+    color: red;
+    transition: all .4s;
+}
+
+.input-button:hover {
+    transform: translateY(-1px);
+}
+
+.project-section {
+    background: rgba(12, 91, 209, .7);
+}
+
+@media (max-width:768px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+}
